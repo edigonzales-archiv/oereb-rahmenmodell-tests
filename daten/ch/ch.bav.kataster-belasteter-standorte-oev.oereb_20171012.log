@@ -1,0 +1,54 @@
+reading script c:\program files (x86)\igcheck2\user\script\igcheck\interlis2.cfg ...
+
+******************************
+*                            *
+* iG/Check for INTERLIS 2    *
+*                            *
+* Version 2016.0 09.11.2017  *
+*                            *
+* (c) infoGrips 1997-2016    *
+*                            *
+******************************
+
+**********************************
+* License Information:           *
+* iG/Check for INTERLIS 2        *
+* WORLD WIDE SINGLE USER LICENSE *
+* ICS Kernel Version 2016.0      *
+**********************************
+
+License file: c:\program files (x86)\igcheck2\user\license\igcheck2.lic
+
+input : \\adb.intra.admin.ch\UserHome$\SWISSTOPO-01\U80738094\data\Documents\zur\OeREB\Test-FeatureService\ch.bav.kataster-belasteter-standorte-oev.oereb_20171012.xtf
+date  : 13.11.2017
+time  : 16:15:32
+
+area check is on
+unique check is on
+cardinality check is on
+mandatory constraint check is on
+tag order check is on
+empty attrtags check is off
+external ref check is on
+charset check is off
+arc radius check is on
+xgeom check is on
+
+============================================================================================================
+checking basket OeREBKRMtrsfr_V1_1.Transferstruktur bid=B01 ...
+============================================================================================================
+
+Object Statistics
+=================
+
+    1 objects in class Vorschriften.Amt
+    1 objects in class Transferstruktur.DarstellungsDienst
+ 1343 objects in class Transferstruktur.Eigentumsbeschraenkung
+ 1343 objects in class Vorschriften.Rechtsvorschrift
+ 2686 objects in class Vorschriften.HinweisWeitereDokumente
+ 1343 objects in class Transferstruktur.Geometrie
+ 1343 objects in class Transferstruktur.HinweisVorschrift
+
+completed with no errors
+completed with no warnings
+completed with no infos

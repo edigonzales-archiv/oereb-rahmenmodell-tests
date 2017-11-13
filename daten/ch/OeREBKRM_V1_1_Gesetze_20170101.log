@@ -1,0 +1,49 @@
+reading script c:\program files (x86)\igcheck2\user\script\igcheck\interlis2.cfg ...
+
+******************************
+*                            *
+* iG/Check for INTERLIS 2    *
+*                            *
+* Version 2016.0 09.11.2017  *
+*                            *
+* (c) infoGrips 1997-2016    *
+*                            *
+******************************
+
+**********************************
+* License Information:           *
+* iG/Check for INTERLIS 2        *
+* WORLD WIDE SINGLE USER LICENSE *
+* ICS Kernel Version 2016.0      *
+**********************************
+
+License file: c:\program files (x86)\igcheck2\user\license\igcheck2.lic
+
+input : \\adb.intra.admin.ch\UserHome$\SWISSTOPO-01\U80738094\data\Documents\zur\OeREB\Test-FeatureService\OeREBKRM_V1_1_Gesetze_20170101.xml
+date  : 13.11.2017
+time  : 16:16:30
+
+area check is on
+unique check is on
+cardinality check is on
+mandatory constraint check is on
+tag order check is on
+empty attrtags check is off
+external ref check is on
+charset check is off
+arc radius check is on
+xgeom check is on
+
+============================================================================================================
+checking basket OeREBKRMvs_V1_1.HinweiseGesetzlicheGrundlagen bid=b1 ...
+============================================================================================================
+
+Object Statistics
+=================
+
+   12 objects in class Vorschriften.Dokument
+    1 objects in class Vorschriften.Amt
+
+completed with no errors
+completed with no warnings
+completed with no infos
