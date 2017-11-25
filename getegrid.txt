@@ -1,0 +1,5 @@
+<GetEGRIDResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.geo.admin.ch/swisstopo/OeREBK/15/Extract">
+  <egrid>CH788446353872</egrid>
+  <number>13</number>
+  <identDN>BE0200000305</identDN>
+</GetEGRIDResponse>
