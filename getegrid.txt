@@ -3,3 +3,6 @@
   <number>13</number>
   <identDN>BE0200000305</identDN>
 </GetEGRIDResponse>
+
+
+curl -X GET -H 'Accept: application/xml' -H 'Content-type: application/xml' http://localhost:8888/oereb/getegrid/xml/?XY=2598098,1225627.999 -v
