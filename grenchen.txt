@@ -2,3 +2,11 @@ gb-nr 336
 gem_bfs 2546
 CH870672603279
 2598098,1225627
+47.18159,7.41353
+
+
+http://localhost:8888/oereb/getegrid/xml/?XY=2598098,1225627
+http://localhost:8888/oereb/getegrid/xml/?GNSS=47.18159,7.41353
+http://localhost:8888/oereb/getegrid/xml/SO0200002546/336
+
+http://localhost:8888/oereb/getegrid/xml/2540/Flughafenstrasse/117
