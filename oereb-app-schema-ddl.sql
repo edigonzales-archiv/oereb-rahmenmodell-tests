@@ -2,12 +2,30 @@
 
 CREATE SCHEMA agi_oereb_app;
 
+CREATE TABLE agi_oereb_app.egrid_parcel (
+	t_id bigserial,
+	geometrie geometry(Polygon,2056) NOT NULL,
+	egrid varchar(14), --NOT NULL, -- Muss in Zukunft mandatory sein.
+	"number" varchar(12) NOT NULL,
+	identdn varchar(12) NOT NULL,
+    CONSTRAINT egrid_parcel_pkey PRIMARY KEY (t_id)
+)
+WITH (
+	OIDS=FALSE
+);
+
+CREATE
+    INDEX egrid_parcel_postalcode_idx ON
+    agi_oereb_app.egrid_parcel
+        USING gist(geometrie) ;
+
+
 CREATE TABLE agi_oereb_app.egrid_address (
 	t_id bigserial,
 	postalcode int4 NOT NULL,
 	localisation varchar(60) NOT NULL,
 	housing_number varchar(12) NOT NULL,
-	egrid varchar(14) NOT NULL,
+	egrid varchar(14), --NOT NULL, -- Muss in Zukunft mandatory sein.
 	"number" varchar(12) NOT NULL,
 	identdn varchar(12) NOT NULL,
     CONSTRAINT egrid_address_pkey PRIMARY KEY (t_id)
