@@ -1,11 +1,14 @@
 -- We need an "Publikationsmodell" for this!
 
+CREATE ROLE oereb_read WITH LOGIN ENCRYPTED PASSWORD 'itstheendoftheworldasweknowit';
+
 CREATE SCHEMA agi_oereb_app;
+GRANT USAGE ON SCHEMA agi_oereb_app TO oereb_read;
 
 CREATE TABLE agi_oereb_app.egrid_parcel (
 	t_id bigserial,
 	geometrie geometry(Polygon,2056) NOT NULL,
-	egrid varchar(14), --NOT NULL, -- Muss in Zukunft mandatory sein.
+	egrid varchar(14) NOT NULL, 
 	"number" varchar(12) NOT NULL,
 	identdn varchar(12) NOT NULL,
     CONSTRAINT egrid_parcel_pkey PRIMARY KEY (t_id)
@@ -25,7 +28,7 @@ CREATE TABLE agi_oereb_app.egrid_address (
 	postalcode int4 NOT NULL,
 	localisation varchar(60) NOT NULL,
 	housing_number varchar(12) NOT NULL,
-	egrid varchar(14), --NOT NULL, -- Muss in Zukunft mandatory sein.
+	egrid varchar(14) NOT NULL,
 	"number" varchar(12) NOT NULL,
 	identdn varchar(12) NOT NULL,
     CONSTRAINT egrid_address_pkey PRIMARY KEY (t_id)
@@ -49,6 +52,6 @@ CREATE
     agi_oereb_app.egrid_address
         USING btree(housing_number) ;
 
-
+GRANT SELECT ON ALL TABLES IN SCHEMA agi_oereb_app TO oereb_read;
 
 

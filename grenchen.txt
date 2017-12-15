@@ -10,3 +10,4 @@ http://localhost:8888/oereb/getegrid/xml/?GNSS=47.18159,7.41353
 http://localhost:8888/oereb/getegrid/xml/SO0200002546/336
 
 http://localhost:8888/oereb/getegrid/xml/2540/Flughafenstrasse/117
+http://localhost:8888/oereb/getegrid/xml/2540/Flughafenstrasse/
