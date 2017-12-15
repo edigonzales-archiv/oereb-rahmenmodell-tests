@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="qualified" attributeFormDefault="unqualified"
+  version="1.0.1">
+
+<xsd:element name="GetEGRIDResponse" type="GetEGRIDResponseType"/>
+<xsd:complexType name="GetEGRIDResponseType">
+    <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="egrid" type="xsd:token"/>
+      <xsd:element name="number" type="xsd:token"/>
+      <xsd:element name="identDN" type="xsd:token"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+</xsd:schema>
+
