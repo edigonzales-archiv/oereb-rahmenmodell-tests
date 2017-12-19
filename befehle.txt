@@ -30,4 +30,40 @@ java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase so
 #######################
 
 
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName  --models "OeREBKRMvs_V1_1;OeREBKRMtrsfr_V1_1" --dbschema agi_oereb_trsfr --schemaimport
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models OeREBKRMvs_V1_1 --dbschema agi_oereb_trsfr --import daten/ch/OeREBKRM_V1_1_Gesetze_20170101.xml
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models OeREBKRMtrsfr_V1_1 --dbschema agi_oereb_trsfr --import daten/ch/ch.bazl.sicherheitszonenplan.oereb_20131118.xtf
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models OeREBKRMtrsfr_V1_1 --dbschema agi_oereb_trsfr --import daten/ch/ch.bav.kataster-belasteter-standorte-oev.oereb_20171012.xtf
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models OeREBKRMtrsfr_V1_1 --dbschema agi_oereb_trsfr --import daten/ch/ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.oereb_20171012.xtf
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models OeREBKRMtrsfr_V1_1 --dbschema agi_oereb_trsfr --import daten/ch/ch.bazl.projektierungszonen-flughafenanlagen.oereb_20161128.xtf
+
+
+#######################
+
+
+
+
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName  --models "OeREBKRMvs_V1_1;OeREBKRMtrsfr_V1_1" --dbschema agi_oereb_trsfr --schemaimport
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models OeREBKRMvs_V1_1 --dbschema agi_oereb_trsfr --import daten/ch/OeREBKRM_V1_1_Gesetze_20170101.xml
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models OeREBKRMtrsfr_V1_1 --dbschema agi_oereb_trsfr --import daten/ch/ch.bav.kataster-belasteter-standorte-oev.oereb_20171012.xtf
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models OeREBKRMtrsfr_V1_1 --dbschema agi_oereb_trsfr --import daten/ch/ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.oereb_20171012.xtf
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models OeREBKRMtrsfr_V1_1 --dbschema agi_oereb_trsfr --import daten/ch/ch.bazl.projektierungszonen-flughafenanlagen.oereb_20161128.xtf
+
+java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --models "OeREBKRMvs_V1_1;OeREBKRMtrsfr_V1_1" --dbschema oereb_trsfr --import daten/ch/ch.bazl.sicherheitszonenplan.oereb_20131118.xtf
+
+
+#######################
+
+
+
 java -jar ~/apps/ili2pg-3.10.10/ili2pg.jar --dbhost 192.168.50.5 --dbdatabase sogis --dbusr ddluser --dbpwd ddluser --nameByTopic --disableValidation --defaultSrsCode 2056 --expandMultilingual --coalesceCatalogueRef --createFk --strokeArcs --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName  --modeldir "./repos/models.geo.admin.ch/;./repos/models.geo.admin.ch/models.geo.admin.ch/CH/;http://models.interlis.ch" --models "OeREBKRMvs_V1_1;OeREBKRMazg_V1_1" --dbschema agi_oereb_azg --schemaimport
