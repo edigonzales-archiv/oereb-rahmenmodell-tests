@@ -1,0 +1,2059 @@
+
+<GetExtractByIdResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.geo.admin.ch/swisstopo/OeREBK/15/Extract">
+  <Extract xmlns="http://schemas.geo.admin.ch/swisstopo/OeREBK/15/ExtractData">
+    <CreationDate>2017-12-19T06:32:49.4217207+01:00</CreationDate>
+    <Signature>
+      <SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <CanonicalizationMethod />
+        <SignatureMethod />
+      </SignedInfo>
+      <SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#" />
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#" />
+    </Signature>
+    <ConcernedTheme>
+      <Code>Nutzungsplanung</Code>
+      <Name>Kommunale Nutzungsplanung</Name>
+    </ConcernedTheme>
+    <ConcernedTheme>
+      <Code>SicherheitszonenplanFlughafen</Code>
+      <Name>Sicherheitszonenplan bei Flughäfen</Name>
+    </ConcernedTheme>
+    <ConcernedTheme>
+      <Code>BelasteteStandorteZivileFlugplaetze</Code>
+      <Name>Kataster der belasteten Standorte im Bereich der zivilen Flugplätze</Name>
+    </ConcernedTheme>
+    <NotConcernedTheme>
+      <Code>RegionaleNutzungsplanung</Code>
+      <Name>Regionale Nutzungsplanung</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>KantonaleNutzungsplanung</Code>
+      <Name>Kantonale Nutzungsplanung</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BaulinienKantonsstrassen</Code>
+      <Name>Baulinien Kantonsstrassen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>ProjektierungszonenNationalstrassen</Code>
+      <Name>Projektierungszonen Nationalstrassen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>ProjektierungszonenEisenbahnanlagen</Code>
+      <Name>Projektierungszonen Eisenbahnanlagen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BaulinienEisenbahnanlagen</Code>
+      <Name>Baulinien Eisenbahnanlagen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>ProjektierungszonenFlughafenanlagen</Code>
+      <Name>Projektierungszonen Flughafenanlagen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BaulinienFlughafenanlagen</Code>
+      <Name>Baulinien Flughafenanlagen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BelasteteStandorte</Code>
+      <Name>Kataster der belasteten Standorte</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BelasteteStandorteOeffentlicherVerkehr</Code>
+      <Name>Kataster der belasteten Standorte im Bereich des öffentlichen Verkehrs</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Grundwasserschutzzonen</Code>
+      <Name>Grundwasserschutzzonen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Grundwasserschutzareale</Code>
+      <Name>Grundwasserschutzareale</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Laermempfindlichkeitsstufen</Code>
+      <Name>Lärmempfindlichkeitsstufen (in Nutzungszonen)</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Waldgrenzen</Code>
+      <Name>Waldgrenzen (in Bauzonen)</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Waldabstandslinien</Code>
+      <Name>Kommunale Wald-Baulinien</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>RegionaleWaldbaulinien</Code>
+      <Name>Regionale Wald-Baulinien</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>KantonaleWaldbaulinien</Code>
+      <Name>Kantonale Wald-Baulinien</Name>
+    </NotConcernedTheme>
+    <ThemeWithoutData>
+      <Code>BaulinienNationalstrassen</Code>
+      <Name>Baulinien Nationalstrassen</Name>
+    </ThemeWithoutData>
+    <ThemeWithoutData>
+      <Code>BelasteteStandorteMilitaer</Code>
+      <Name>Kataster der belasteten Standorte im Bereich des Militärs</Name>
+    </ThemeWithoutData>
+    <isReduced>true</isReduced>
+    <LogoPLRCadastre>https://oerebfiles.apps.be.ch/logos/oerebkataster_logo.svg</LogoPLRCadastre>
+    <FederalLogo>https://oerebfiles.apps.be.ch/logos/bund_logo.svg</FederalLogo>
+    <CantonalLogo>https://oerebfiles.apps.be.ch/logos/kanton_BE.svg</CantonalLogo>
+    <MunicipalityLogo>https://oerebfiles.apps.be.ch/logos/861.svg</MunicipalityLogo>
+    <ExtractIdentifier>7794b252-b1c8-41c8-b15d-ed88cb118892</ExtractIdentifier>
+    <QRCode>AA==</QRCode>
+    <GeneralInformation>
+      <LocalisedText>
+        <Language>de</Language>
+        <Text>Der Inhalt des ÖREB-Katasters wird als bekannt vorausgesetzt. Der Kanton Bern ist für die Genauigkeit und Verlässlichkeit der gesetzgebenden Dokumente in elektronischer Form nicht haftbar. Der Auszug hat rein informativen Charakter und begründet insbesondere keine Rechte und Pflichten. Rechtsverbindlich sind diejenigen Dokumente, welche rechtskräftig verabschiedet oder veröffentlicht worden sind. Mit der Beglaubigung des Auszugs wird die Übereinstimmung des Auszuges mit dem ÖREB-Kataster zum Zeitpunkt der Auszugserstellung bestätigt.</Text>
+      </LocalisedText>
+    </GeneralInformation>
+    <BaseData>
+      <LocalisedText>
+        <Language>de</Language>
+        <Text>Daten der amtlichen Vermessung (Stand: 05.12.2017)</Text>
+      </LocalisedText>
+    </BaseData>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Baulinien Eisenbahnanlagen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Um die freie Verfügbarkeit der für bestehende oder künftige Bahnbauten und -anlagen erforderlichen Grundstücke zu gewährleisten, kann das Amt Baulinien festlegen. Zwischen den Baulinien sowie zwischen einer Baulinie und einer Bahnanlage dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck der Bahnanlagen widersprechen.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Baulinien Flughafenanlagen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Baulinien können festgelegt werden, um die freie Verfügbarkeit der für bestehende oder künftige Flughafenanlagen erforderlichen Grundstücke zu gewährleisten. Innerhalb der Baulinien dürfen keine baulichen Veränderungen vorgenommen oder sonstige Massnahmen getroffen werden, die dem Zweck der Baulinie widersprechen.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Baulinien Kantonsstrassen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Kantonale Strassenbaulinien bezeichnen den gegenüber der Kantonsstrasse einzuhaltenden Bauabstand und gehen den allgemeinen Abstandsvorschriften vor (Art. 90 BauG). Zwischen kantonaler Strassenbaulinie und Strassenrand besteht somit ein Bauverbot. Kantonale Stras-senbaulinien dienen nicht nur der Verkehrssicherheit, sondern auch der Freihaltung von Strassenräumen für künftige Strassenbauvorhaben. Wurden keine Strassenbaulinien festge-legt, so gilt für Bauten und Anlagen entlang von Kantonsstrassen beidseitig der gesetzlich vorgeschriebene Abstand (Bauverbotsstreifen) von 5 m ab Fahrbahnrand nach Art. 80 Abs. 1 Bst. a SG.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Baulinien Nationalstrassen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Wenn der projektierte Strassenverlauf definitiv bekannt ist, werden beiderseits der Strasse Baulinien festgelegt. Diese Baulinien ermöglichen es, die Anforderungen der Verkehrssicherheit und der Wohnhygiene sowie die Erfordernisse eines eventuellen künftigen Ausbaus der Strasse zu berücksichtigen. Zwischen den Baulinien dürfen ohne Bewilligung weder Neubauten erstellt noch Umbauten bestehender Gebäude vorgenommen werden, auch wenn diese nur teilweise in die Baulinien hineinragen.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>BFS-Nr.</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Gemeindenummern des Bundesamtes für Statistik</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>E-GRID</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Aus einem Präfix und einer Nummer bestehende Bezeichnung, die erlaubt, jedes in das Grundbuch aufgenommene Grundstück landesweit eindeutig zu identifizieren und die zum Datenaustausch zwischen Informatiksystemen dient. </Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>EV ÖREBKV</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Einführungsverordnung zur eidgenössischen Verordnung über den Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen vom 18. September 2013</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Grundwasserschutzareale</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Die Kantone scheiden Areale aus, die für die künftige Nutzung und Anreicherung von Grundwasservorkommen von Bedeutung sind. In diesen Arealen dürfen keine Bauten und Anlagen erstellt oder Arbeiten ausgeführt werden, welche die künftige Errichtung von Grundwassernutzungs- oder -anreicherungsanlagen beeinträchtigen könnten. </Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Grundwasserschutzzonen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Die Kantone scheiden Schutzzonen für die im öffentlichen Interesse liegenden Grundwasserfassungen und -anreicherungsanlagen aus; sie legen die notwendigen Eigentumsbeschränkungen fest.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Kataster der belasteten Standorte</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Die Kantone sorgen dafür, dass Deponien und andere durch Abfälle belastete Standorte saniert werden, wenn sie zu schädlichen oder lästigen Einwirkungen führen oder die konkrete Gefahr besteht, dass solche Einwirkungen entstehen. Die Behörde ermittelt die belasteten Standorte, indem sie vorhandene Angaben wie Karten, Verzeichnisse und Meldungen auswertet. Sie trägt diejenigen Standorte, deren Belastung erwiesen oder sehr wahrscheinlich ist, in den Kataster ein. </Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Kommunale Nutzungsplanung</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Das bernische Baugesetz bezeichnet als Nutzungsplan die baurechtliche Grundordnung (Art. 69 – 87 BauG) und die Überbauungsordnungen (Art. 88 bis 96 BauG). Zum Gegenstand einer Überbauungsordnung gehören auch Baulinien (Art. 90 f. BauG), Uferschutzpläne (Art. 7 SFV), kommunale Strassenpläne (Art. 43 SG) sowie Gestaltungspläne, Sonderbauvorschriften und Detailerschliessungspläne des früheren Rechts, soweit sie nach Artikel 149 f. BauG in Kraft geblieben sind. Nicht zu den Überbauungsordnungen gehören die kommunalen Wasserbaupläne nach Art. 21 WBG: Für deren Erlass gilt das Verfahren nach Art. 23 ff. WBG. Genehmigungsbehörde ist im Unterschied zur Nutzungsplanung nicht die zuständige Stelle der Justiz-, Gemeinde- und Kirchdirektion (Art. 61 BauG), sondern diejenige der Bau-, Verkehrs- und Energiedirektion (Art. 25 Abs. 4 WBG).</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Lärmempfindlichkeitsstufen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>In den Nutzungsplänen können Empfindlichkeitsstufen festgelegt werden, um jeweils bestimmte Zonen zu definieren: diejenigen, die eines erhöhten Lärmschutzes bedürfen, diejenigen, in denen keine störenden Betriebe zugelassen sind, und diejenigen, in denen mässig und stark störende Betriebe zugelassen sind.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>ÖREB</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Öffentlich-rechtliche Beschränkung des Grundeigentums</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>ÖREB-Kataster</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen. Systematisches, öffentlich zugängliches, amtliches Inventar, welches vollständig und flächendeckend über die vom Bund und Kanton bezeichneten öffentlich-rechtlichen Eigentumsbeschränkungen informiert.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>ÖREBKV</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Verordnung vom 2. September 2009 über den Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Projektierungszonen Eisenbahnanlagen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Um die freie Verfügbarkeit der für künftige Bahnbauten und -anlagen erforderlichen Grundstücke zu gewährleisten, können für genau bezeichnete Gebiete Projektierungszonen festgelegt werden. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Eisenbahnen widersprechen.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Projektierungszonen Flughafenanlagen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Um die freie Verfügbarkeit der für Flughafenanlagen erforderlichen Grundstücke zu gewährleisten, können Projektierungszonen festgelegt werden, deren Gebiet genau abzugrenzen ist. In diesen Zonen dürfen keine baulichen Veränderungen vorgenommen werden, die dem Zweck der Flughafenanlagen widersprechen.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Projektierungszonen Nationalstrassen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Um die freie Verfügbarkeit des für den Bau der Nationalstrassen erforderlichen Landes zu gewährleisten, können Projektierungszonen eingerichtet werden. In diesen Zonen dürfen ohne Bewilligung keine Neubauten oder wertvermehrenden Umbauten ausgeführt werden.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Raumplanung</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>In den Nutzungsplänen (häufig auch als Zonenpläne bezeichnet) wird die Art der Bodennutzung geregelt. Sie unterteilen das Gebiet in verschiedene Bau-, Landwirtschafts- oder Schutzzonen. Über sie wird in der Regel auf Stufe Gemeinde entschieden, gefolgt von der Genehmigung durch eine kantonale Behörde. Diese Genehmigung verleiht den Nutzungsplänen eine bindende Wirkung. </Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Rechtsvorschrift</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Bestandteil einer öffentlich-rechtlichen Eigentumsbeschränkung, der zusammen mit den Geobasisdaten als Einheit die Eigentumsbeschränkung unmittelbar umschreibt und für die das gleiche Verfahren massgebend ist.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Sicherheitszonenplan bei Flughäfen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Eine Sicherheitszone muss für jeden Flughafen eingerichtet werden. Das Amt entscheidet im Einzelfall, ob für Flugsicherungsanlagen und Flugwege eine Sicherheitszone erforderlich ist. Ohne Zustimmung des Gesuchstellers kann niemand über eine Liegenschaft verfügen, die einem solchen Sicherheitszonenplan unterliegt.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Waldabstandslinien</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Bauten und Anlagen in Waldesnähe sind nur zulässig, wenn sie die Erhaltung, Pflege und Nutzung des Waldes nicht beeinträchtigen. Die Kantone legen aufgrund rechtskräftiger Waldabstandslinien einen angemessenen Mindestabstand fest, der zwischen den Bauten und Anlagen und dem Waldrand einzuhalten ist. Dieser Abstand wird unter Berücksichtigung der Lage und der voraussichtlichen Höhe der Bestockung ermittelt. </Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <Glossary>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Waldgrenzen</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>In Bauzonen müssen die Waldgrenzen auf der Grundlage rechtskräftiger Waldfeststellungen festgelegt werden. Neue Bestockungen ausserhalb dieser Waldgrenzen gelten nicht als Wald.</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </Glossary>
+    <RealEstate>
+      <Number>1372</Number>
+      <IdentDN>BE0200000308</IdentDN>
+      <EGRID>CH634678351610</EGRID>
+      <Type>RealEstate</Type>
+      <Canton>BE</Canton>
+      <Municipality>Belp</Municipality>
+      <SubunitOfLandRegister>1 - Belp</SubunitOfLandRegister>
+      <FosNr>861</FosNr>
+      <MetadataOfGeographicalBaseData>https://www.geo.apps.be.ch/de/?option=com_easysdi_catalog&amp;view=report&amp;tmpl=component&amp;preview=search_list&amp;type=complete&amp;catalog=geocatalog&amp;guid[]=c71b255f-67cf-4e25-bc1b-ae4dc6e7d546&amp;lastVersion=1&amp;mime=xml</MetadataOfGeographicalBaseData>
+      <LandRegistryArea>427683</LandRegistryArea>
+      <Limit>
+        <MultiSurface xmlns="http://www.opengis.net/gml/3.2">
+          <description />
+          <descriptionReference />
+          <identifier />
+          <surfaceMembers />
+        </MultiSurface>
+      </Limit>
+      <RestrictionOnLandownership>
+        <Information>
+          <LocalisedText>
+            <Language>de</Language>
+            <Text>Flugplatzzone F</Text>
+          </LocalisedText>
+        </Information>
+        <Theme>
+          <Code>Nutzungsplanung</Code>
+          <Name>Kommunale Nutzungsplanung</Name>
+        </Theme>
+        <SubTheme>Zonenflächen der Grundnutzung</SubTheme>
+        <TypeCode>1dee3f3b-486d-4832-a64e-7fcf0489c377</TypeCode>
+        <TypeCodelist>Polygon</TypeCodelist>
+        <Lawstatus>
+          <Code>inKraft</Code>
+          <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+        </Lawstatus>
+        <Area>427375</Area>
+        <PartInPercent>99.9</PartInPercent>
+        <Symbol>https://oerebfiles.apps.be.ch/86101/761/legenden/nupla_gngruzo_F0031_433.png</Symbol>
+        <Geometry>
+          <Surface />
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <MetadataOfGeographicalBaseData />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeinde Belp</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.belp.ch/</OfficeAtWeb>
+            <UID>ch.be.bve.agi.861</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <extensions />
+        </Geometry>
+        <Map>
+          <ReferenceWMS>https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?map=oereb_de&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:2056&amp;bbox=2603732.18,1195155.74,2605533.19,1196181.13&amp;width=1370&amp;height=780&amp;STYLES=&amp;EXCEPTIONS=xml&amp;FORMAT=image/png&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;LAYERS=geodb.nupla_gngruzo</ReferenceWMS>
+          <LegendAtWeb>https://oerebfiles.apps.be.ch/86101/761/legenden/861_legende_npl_de.html</LegendAtWeb>
+          <OtherLegend>
+            <Symbol>https://oerebfiles.apps.be.ch/86101/761/legenden/nupla_gngruzo_F0022_424.png</Symbol>
+            <LegendText>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Zone für Sport- und Freizeitanlagen ZSF</Text>
+              </LocalisedText>
+            </LegendText>
+            <TypeCode>ch.be.bve.agi.npl.861.11</TypeCode>
+            <Theme>
+              <Code>Nutzungsplanung</Code>
+              <Name>Kommunale Nutzungsplanung</Name>
+            </Theme>
+            <SubTheme>Zonenflächen der Grundnutzung</SubTheme>
+            <extensions />
+          </OtherLegend>
+          <OtherLegend>
+            <Symbol>https://oerebfiles.apps.be.ch/86101/761/legenden/nupla_gngruzo_F0029_431.png</Symbol>
+            <LegendText>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>USP Uferschutzplan Aare Abschnitt Belp, vom 18.12.2000</Text>
+              </LocalisedText>
+            </LegendText>
+            <TypeCode>ch.be.bve.agi.npl.861.11</TypeCode>
+            <Theme>
+              <Code>Nutzungsplanung</Code>
+              <Name>Kommunale Nutzungsplanung</Name>
+            </Theme>
+            <SubTheme>Zonenflächen der Grundnutzung</SubTheme>
+            <extensions />
+          </OtherLegend>
+          <extensions />
+        </Map>
+        <LegalProvisions xsi:type="LegalProvisions">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://oerebfiles.apps.be.ch/86101/761/Baureglement_Belp.pdf</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Belp Baureglement</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Belp Baureglement, vom 4.2.2008</Text>
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber />
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeinde Belp</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.belp.ch/</OfficeAtWeb>
+            <UID>ch.be.bve.agi.861</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <ArticleNumber>35</ArticleNumber>
+          <ArticleNumber>36</ArticleNumber>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.admin.ch/ch/d/sr/c700.html</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Raumplanungsgesetz</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>RPG</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>SR 700</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.belex.sites.be.ch/frontend/texts_of_law/392</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Baugesetz</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BauG</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>BSG 721.0</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.belex.sites.be.ch/frontend/texts_of_law/391</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Bauverordnung</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BauV</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>BSG 721.1</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.belex.sites.be.ch/frontend/texts_of_law/390</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Verordnung über die Begriffe und Messweisen im Bauwesen</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BMBV</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>BSG 721.3</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <ResponsibleOffice>
+          <Name>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Gemeinde Belp</Text>
+            </LocalisedText>
+          </Name>
+          <OfficeAtWeb>http://www.belp.ch/</OfficeAtWeb>
+          <UID>ch.be.bve.agi.861</UID>
+          <extensions />
+        </ResponsibleOffice>
+        <extensions />
+      </RestrictionOnLandownership>
+      <RestrictionOnLandownership>
+        <Information>
+          <LocalisedText>
+            <Language>de</Language>
+            <Text>Landwirtschaftszone LWZ Belp</Text>
+          </LocalisedText>
+        </Information>
+        <Theme>
+          <Code>Nutzungsplanung</Code>
+          <Name>Kommunale Nutzungsplanung</Name>
+        </Theme>
+        <SubTheme>Zonenflächen der Grundnutzung</SubTheme>
+        <TypeCode>53bf4ea7-aa3f-476c-89f4-74b5f82555ed</TypeCode>
+        <TypeCodelist>Polygon</TypeCodelist>
+        <Lawstatus>
+          <Code>inKraft</Code>
+          <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+        </Lawstatus>
+        <Area>310</Area>
+        <PartInPercent>0.1</PartInPercent>
+        <Symbol>https://oerebfiles.apps.be.ch/86101/761/legenden/nupla_gngruzo_F0025_427.png</Symbol>
+        <Geometry>
+          <Surface />
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <MetadataOfGeographicalBaseData />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeinde Belp</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.belp.ch/</OfficeAtWeb>
+            <UID>ch.be.bve.agi.861</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <extensions />
+        </Geometry>
+        <Map>
+          <ReferenceWMS>https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?map=oereb_de&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:2056&amp;bbox=2603732.18,1195155.74,2605533.19,1196181.13&amp;width=1370&amp;height=780&amp;STYLES=&amp;EXCEPTIONS=xml&amp;FORMAT=image/png&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;LAYERS=geodb.nupla_gngruzo</ReferenceWMS>
+          <LegendAtWeb>https://oerebfiles.apps.be.ch/86101/761/legenden/861_legende_npl_de.html</LegendAtWeb>
+          <OtherLegend>
+            <Symbol>https://oerebfiles.apps.be.ch/86101/761/legenden/nupla_gngruzo_F0022_424.png</Symbol>
+            <LegendText>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Zone für Sport- und Freizeitanlagen ZSF</Text>
+              </LocalisedText>
+            </LegendText>
+            <TypeCode>ch.be.bve.agi.npl.861.11</TypeCode>
+            <Theme>
+              <Code>Nutzungsplanung</Code>
+              <Name>Kommunale Nutzungsplanung</Name>
+            </Theme>
+            <SubTheme>Zonenflächen der Grundnutzung</SubTheme>
+            <extensions />
+          </OtherLegend>
+          <OtherLegend>
+            <Symbol>https://oerebfiles.apps.be.ch/86101/761/legenden/nupla_gngruzo_F0029_431.png</Symbol>
+            <LegendText>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>USP Uferschutzplan Aare Abschnitt Belp, vom 18.12.2000</Text>
+              </LocalisedText>
+            </LegendText>
+            <TypeCode>ch.be.bve.agi.npl.861.11</TypeCode>
+            <Theme>
+              <Code>Nutzungsplanung</Code>
+              <Name>Kommunale Nutzungsplanung</Name>
+            </Theme>
+            <SubTheme>Zonenflächen der Grundnutzung</SubTheme>
+            <extensions />
+          </OtherLegend>
+          <extensions />
+        </Map>
+        <LegalProvisions xsi:type="LegalProvisions">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://oerebfiles.apps.be.ch/86101/761/Baureglement_Belp.pdf</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Belp Baureglement</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Belp Baureglement, vom 4.2.2008</Text>
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber />
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeinde Belp</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.belp.ch/</OfficeAtWeb>
+            <UID>ch.be.bve.agi.861</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <ArticleNumber>35</ArticleNumber>
+          <ArticleNumber>36</ArticleNumber>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.admin.ch/ch/d/sr/c700.html</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Raumplanungsgesetz</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>RPG</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>SR 700</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.belex.sites.be.ch/frontend/texts_of_law/392</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Baugesetz</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BauG</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>BSG 721.0</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.belex.sites.be.ch/frontend/texts_of_law/391</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Bauverordnung</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BauV</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>BSG 721.1</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.belex.sites.be.ch/frontend/texts_of_law/390</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Verordnung über die Begriffe und Messweisen im Bauwesen</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BMBV</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>BSG 721.3</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <ResponsibleOffice>
+          <Name>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Gemeinde Belp</Text>
+            </LocalisedText>
+          </Name>
+          <OfficeAtWeb>http://www.belp.ch/</OfficeAtWeb>
+          <UID>ch.be.bve.agi.861</UID>
+          <extensions />
+        </ResponsibleOffice>
+        <extensions />
+      </RestrictionOnLandownership>
+      <RestrictionOnLandownership>
+        <Information>
+          <LocalisedText>
+            <Language>de</Language>
+            <Text>Gefahrengebiet, geringe Gefaerdung</Text>
+          </LocalisedText>
+        </Information>
+        <Theme>
+          <Code>Nutzungsplanung</Code>
+          <Name>Kommunale Nutzungsplanung</Name>
+        </Theme>
+        <SubTheme>Überlagernde Zonenflächen</SubTheme>
+        <TypeCode>6c9cb9d6-6c0e-4974-b251-9df3bb297596</TypeCode>
+        <TypeCodelist>Polygon</TypeCodelist>
+        <Lawstatus>
+          <Code>inKraft</Code>
+          <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+        </Lawstatus>
+        <Area>297516</Area>
+        <PartInPercent>69.6</PartInPercent>
+        <Symbol>https://oerebfiles.apps.be.ch/86101/761/legenden/nupla_uefl_1_F0114_105.png</Symbol>
+        <Geometry>
+          <Surface />
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <MetadataOfGeographicalBaseData />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeinde Belp</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.belp.ch/</OfficeAtWeb>
+            <UID>ch.be.bve.agi.861</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <extensions />
+        </Geometry>
+        <Map>
+          <ReferenceWMS>https://oerebservice.apps.be.ch/cgi-bin/mapserv.fcgi?map=oereb_de&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:2056&amp;bbox=2603732.18,1195155.74,2605533.19,1196181.13&amp;width=1370&amp;height=780&amp;STYLES=&amp;EXCEPTIONS=xml&amp;FORMAT=image/png&amp;BGCOLOR=0xFFFFFF&amp;TRANSPARENT=TRUE&amp;LAYERS=geodb.nupla_uefl_1</ReferenceWMS>
+          <LegendAtWeb>https://oerebfiles.apps.be.ch/86101/761/legenden/861_legende_npl_de.html</LegendAtWeb>
+          <OtherLegend>
+            <Symbol>https://oerebfiles.apps.be.ch/86101/761/legenden/nupla_uefl_1_F0112_103.png</Symbol>
+            <LegendText>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Gefahrengebiet, erhebliche Gefaerdung</Text>
+              </LocalisedText>
+            </LegendText>
+            <TypeCode>ch.be.bve.agi.npl.861.12</TypeCode>
+            <Theme>
+              <Code>Nutzungsplanung</Code>
+              <Name>Kommunale Nutzungsplanung</Name>
+            </Theme>
+            <SubTheme>Überlagernde Zonenflächen</SubTheme>
+            <extensions />
+          </OtherLegend>
+          <OtherLegend>
+            <Symbol>https://oerebfiles.apps.be.ch/86101/761/legenden/nupla_uefl_1_F0113_104.png</Symbol>
+            <LegendText>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Gefahrengebiet, mittlere Gefaerdung</Text>
+              </LocalisedText>
+            </LegendText>
+            <TypeCode>ch.be.bve.agi.npl.861.12</TypeCode>
+            <Theme>
+              <Code>Nutzungsplanung</Code>
+              <Name>Kommunale Nutzungsplanung</Name>
+            </Theme>
+            <SubTheme>Überlagernde Zonenflächen</SubTheme>
+            <extensions />
+          </OtherLegend>
+          <extensions />
+        </Map>
+        <LegalProvisions xsi:type="LegalProvisions">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://oerebfiles.apps.be.ch/86101/761/Baureglement_Belp.pdf</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Belp Baureglement</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Belp Baureglement, vom 4.2.2008</Text>
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber />
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeinde Belp</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.belp.ch/</OfficeAtWeb>
+            <UID>ch.be.bve.agi.861</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <ArticleNumber>35</ArticleNumber>
+          <ArticleNumber>36</ArticleNumber>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.admin.ch/ch/d/sr/c700.html</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Raumplanungsgesetz</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>RPG</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>SR 700</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.belex.sites.be.ch/frontend/texts_of_law/392</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Baugesetz</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BauG</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>BSG 721.0</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.belex.sites.be.ch/frontend/texts_of_law/391</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Bauverordnung</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BauV</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>BSG 721.1</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <LegalProvisions xsi:type="Document">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://www.belex.sites.be.ch/frontend/texts_of_law/390</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Verordnung über die Begriffe und Messweisen im Bauwesen</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BMBV</Text>
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber>BSG 721.3</OfficialNumber>
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundeskanzlei</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+            <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+            <extensions />
+          </ResponsibleOffice>
+        </LegalProvisions>
+        <ResponsibleOffice>
+          <Name>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Gemeinde Belp</Text>
+            </LocalisedText>
+          </Name>
+          <OfficeAtWeb>http://www.belp.ch/</OfficeAtWeb>
+          <UID>ch.be.bve.agi.861</UID>
+          <extensions />
+        </ResponsibleOffice>
+        <extensions />
+      </RestrictionOnLandownership>
+      <RestrictionOnLandownership>
+        <Information>
+          <LocalisedText>
+            <Language>de</Language>
+            <Text>Höhenbeschränkung für Bauten und andere Hindernisse</Text>
+          </LocalisedText>
+        </Information>
+        <Theme>
+          <Code>SicherheitszonenplanFlughafen</Code>
+          <Name>Sicherheitszonenplan bei Flughäfen</Name>
+        </Theme>
+        <SubTheme>Sicherheitszonenplan bei Flughäfen</SubTheme>
+        <TypeCode>2798688d-e483-4546-bcf8-82e8a4697ad4</TypeCode>
+        <TypeCodelist>Polygon</TypeCodelist>
+        <Lawstatus>
+          <Code>inKraft</Code>
+          <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+        </Lawstatus>
+        <Area>427685</Area>
+        <PartInPercent>100.0</PartInPercent>
+        <Symbol>https://files.be.ch/bve/agi/oereb/legenden/1108/1108.png</Symbol>
+        <Geometry>
+          <Surface />
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <MetadataOfGeographicalBaseData />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bazl.admin.ch</OfficeAtWeb>
+            <UID>f10ee013-87b9-4f16-b3e5-374d502b0af9</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <extensions />
+        </Geometry>
+        <Map>
+          <ReferenceWMS>http://wms.geo.admin.ch/?SERVICE=WMS&amp;REQUEST=GetMap&amp;VERSION=1.1.1&amp;LAYERS=ch.bazl.sicherheitszonenplan.oereb&amp;STYLES=default&amp;SRS=EPSG:2056&amp;bbox=2603732.18,1195155.74,2605533.19,1196181.13&amp;width=1370&amp;height=780&amp;FORMAT=image/png</ReferenceWMS>
+          <LegendAtWeb>https://files.be.ch/bve/agi/oereb/legenden/1108/1108_de.png</LegendAtWeb>
+          <extensions />
+        </Map>
+        <LegalProvisions xsi:type="LegalProvisions">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://data.geo.admin.ch/ch.bazl.sicherheitszonenplan.oereb/Rechtsvorschriften/108-D-0075.pdf</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Sicherheitszonenplan "Flughafen Bern-Belp", 1:5000</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber />
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>http://www.bazl.admin.ch</OfficeAtWeb>
+            <UID>f10ee013-87b9-4f16-b3e5-374d502b0af9</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <Reference xsi:type="Document">
+            <TextAtWeb>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>https://www.admin.ch/ch/d/sr/c748_0.html</Text>
+              </LocalisedText>
+            </TextAtWeb>
+            <Lawstatus>
+              <Code>inKraft</Code>
+              <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+            </Lawstatus>
+            <extensions />
+            <Title>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Luftfahrtgesetz</Text>
+              </LocalisedText>
+            </Title>
+            <OfficialTitle>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text />
+              </LocalisedText>
+            </OfficialTitle>
+            <Abbrevation>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>LFG</Text>
+              </LocalisedText>
+            </Abbrevation>
+            <OfficialNumber>SR 748.0</OfficialNumber>
+            <Canton>BE</Canton>
+            <Municipality />
+            <ResponsibleOffice>
+              <Name>
+                <LocalisedText>
+                  <Language>de</Language>
+                  <Text>Bundeskanzlei</Text>
+                </LocalisedText>
+              </Name>
+              <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+              <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+              <extensions />
+            </ResponsibleOffice>
+          </Reference>
+          <Reference xsi:type="Reference">
+            <TextAtWeb>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>https://data.geo.admin.ch/ch.bazl.sicherheitszonenplan.oereb/Rechtsvorschriften/108-D-0076.pdf</Text>
+              </LocalisedText>
+            </TextAtWeb>
+            <Lawstatus>
+              <Code>inKraft</Code>
+              <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+            </Lawstatus>
+            <extensions />
+            <Title>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Plangenehmigung "Pistenverlängerung Flughafen Bern-Belp"</Text>
+              </LocalisedText>
+            </Title>
+            <OfficialTitle>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text />
+              </LocalisedText>
+            </OfficialTitle>
+            <Abbrevation>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text />
+              </LocalisedText>
+            </Abbrevation>
+            <OfficialNumber />
+            <Canton>BE</Canton>
+            <Municipality />
+            <ResponsibleOffice>
+              <Name>
+                <LocalisedText>
+                  <Language>de</Language>
+                  <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+                </LocalisedText>
+              </Name>
+              <OfficeAtWeb>http://www.bazl.admin.ch</OfficeAtWeb>
+              <UID>f10ee013-87b9-4f16-b3e5-374d502b0af9</UID>
+              <extensions />
+            </ResponsibleOffice>
+          </Reference>
+        </LegalProvisions>
+        <ResponsibleOffice>
+          <Name>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+            </LocalisedText>
+          </Name>
+          <OfficeAtWeb>http://www.bazl.admin.ch</OfficeAtWeb>
+          <UID>f10ee013-87b9-4f16-b3e5-374d502b0af9</UID>
+          <extensions />
+        </ResponsibleOffice>
+        <extensions />
+      </RestrictionOnLandownership>
+      <RestrictionOnLandownership>
+        <Information>
+          <LocalisedText>
+            <Language>de</Language>
+            <Text>Belastet, weder überwachungs- noch sanierungsbedürftig</Text>
+          </LocalisedText>
+        </Information>
+        <Theme>
+          <Code>BelasteteStandorteZivileFlugplaetze</Code>
+          <Name>Kataster der belasteten Standorte im Bereich der zivilen Flugplätze</Name>
+        </Theme>
+        <SubTheme>Kataster der belasteten Standorte im Bereich der zivilen Flugplätze</SubTheme>
+        <TypeCode>875fda48-e77b-4ab4-a6c7-c6cba70f3e9a</TypeCode>
+        <TypeCodelist>Polygon</TypeCodelist>
+        <Lawstatus>
+          <Code>inKraft</Code>
+          <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+        </Lawstatus>
+        <Area>2960</Area>
+        <PartInPercent>0.7</PartInPercent>
+        <Symbol>https://oerebfiles.apps.be.ch/legenden/1118/f3.png</Symbol>
+        <Geometry>
+          <Surface />
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <MetadataOfGeographicalBaseData />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>https://www.bazl.admin.ch/bazl/de/home/fachleute/flugplaetze/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html</OfficeAtWeb>
+            <UID>fc7e39a7-ccf9-4fe8-b082-6b43eec9c2c4</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <extensions />
+        </Geometry>
+        <Map>
+          <ReferenceWMS>http://wms.geo.admin.ch/?SERVICE=WMS&amp;REQUEST=GetMap&amp;VERSION=1.1.1&amp;STYLES=default&amp;SRS=EPSG:2056&amp;bbox=2603732.18,1195155.74,2605533.19,1196181.13&amp;width=1370&amp;height=780&amp;FORMAT=image/png&amp;LAYERS=ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.oereb</ReferenceWMS>
+          <LegendAtWeb>https://oerebfiles.apps.be.ch/legenden/1118/1118_de.png</LegendAtWeb>
+          <extensions />
+        </Map>
+        <LegalProvisions xsi:type="LegalProvisions">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://map.geo.admin.ch/?Y=2604795&amp;X=1195796&amp;zoom=12&amp;bgLayer=ch.swisstopo.swissimage&amp;layers=ch.bazl.kataster-belasteter-standorte-zivilflugplaetze&amp;layers_opacity=1&amp;bgOpacity=0.8&amp;layers_visibility=true</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BE-Bern-2-I-04</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber />
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>https://www.bazl.admin.ch/bazl/de/home/fachleute/flugplaetze/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html</OfficeAtWeb>
+            <UID>fc7e39a7-ccf9-4fe8-b082-6b43eec9c2c4</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <Reference xsi:type="Document">
+            <TextAtWeb>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>https://www.admin.ch/ch/d/sr/c814_01.html</Text>
+              </LocalisedText>
+            </TextAtWeb>
+            <Lawstatus>
+              <Code>inKraft</Code>
+              <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+            </Lawstatus>
+            <extensions />
+            <Title>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Umweltschutzgesetz</Text>
+              </LocalisedText>
+            </Title>
+            <OfficialTitle>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text />
+              </LocalisedText>
+            </OfficialTitle>
+            <Abbrevation>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>USG</Text>
+              </LocalisedText>
+            </Abbrevation>
+            <OfficialNumber>SR 814.01</OfficialNumber>
+            <Canton>BE</Canton>
+            <Municipality />
+            <ResponsibleOffice>
+              <Name>
+                <LocalisedText>
+                  <Language>de</Language>
+                  <Text>Bundeskanzlei</Text>
+                </LocalisedText>
+              </Name>
+              <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+              <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+              <extensions />
+            </ResponsibleOffice>
+          </Reference>
+          <Reference xsi:type="Document">
+            <TextAtWeb>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>https://www.admin.ch/ch/d/sr/c814_680.html</Text>
+              </LocalisedText>
+            </TextAtWeb>
+            <Lawstatus>
+              <Code>inKraft</Code>
+              <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+            </Lawstatus>
+            <extensions />
+            <Title>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Altlasten-Verordnung</Text>
+              </LocalisedText>
+            </Title>
+            <OfficialTitle>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text />
+              </LocalisedText>
+            </OfficialTitle>
+            <Abbrevation>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>AltlV</Text>
+              </LocalisedText>
+            </Abbrevation>
+            <OfficialNumber>SR 814.680</OfficialNumber>
+            <Canton>BE</Canton>
+            <Municipality />
+            <ResponsibleOffice>
+              <Name>
+                <LocalisedText>
+                  <Language>de</Language>
+                  <Text>Bundeskanzlei</Text>
+                </LocalisedText>
+              </Name>
+              <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+              <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+              <extensions />
+            </ResponsibleOffice>
+          </Reference>
+        </LegalProvisions>
+        <ResponsibleOffice>
+          <Name>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+            </LocalisedText>
+          </Name>
+          <OfficeAtWeb>https://www.bazl.admin.ch/bazl/de/home/fachleute/flugplaetze/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html</OfficeAtWeb>
+          <UID>fc7e39a7-ccf9-4fe8-b082-6b43eec9c2c4</UID>
+          <extensions />
+        </ResponsibleOffice>
+        <extensions />
+      </RestrictionOnLandownership>
+      <RestrictionOnLandownership>
+        <Information>
+          <LocalisedText>
+            <Language>de</Language>
+            <Text>Belastet, weder überwachungs- noch sanierungsbedürftig</Text>
+          </LocalisedText>
+        </Information>
+        <Theme>
+          <Code>BelasteteStandorteZivileFlugplaetze</Code>
+          <Name>Kataster der belasteten Standorte im Bereich der zivilen Flugplätze</Name>
+        </Theme>
+        <SubTheme>Kataster der belasteten Standorte im Bereich der zivilen Flugplätze</SubTheme>
+        <TypeCode />
+        <TypeCodelist />
+        <Lawstatus>
+          <Code>inKraft</Code>
+          <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+        </Lawstatus>
+        <Area />
+        <PartInPercent />
+        <Symbol />
+        <Geometry>
+          <Surface />
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <MetadataOfGeographicalBaseData />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>https://www.bazl.admin.ch/bazl/de/home/fachleute/flugplaetze/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html</OfficeAtWeb>
+            <UID>fc7e39a7-ccf9-4fe8-b082-6b43eec9c2c4</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <extensions />
+        </Geometry>
+        <Map>
+          <ReferenceWMS>http://wms.geo.admin.ch/?SERVICE=WMS&amp;REQUEST=GetMap&amp;VERSION=1.1.1&amp;STYLES=default&amp;SRS=EPSG:2056&amp;bbox=2603732.18,1195155.74,2605533.19,1196181.13&amp;width=1370&amp;height=780&amp;FORMAT=image/png&amp;LAYERS=ch.bazl.kataster-belasteter-standorte-zivilflugplaetze.oereb</ReferenceWMS>
+          <LegendAtWeb>https://oerebfiles.apps.be.ch/legenden/1118/1118_de.png</LegendAtWeb>
+          <extensions />
+        </Map>
+        <LegalProvisions xsi:type="LegalProvisions">
+          <TextAtWeb>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>https://map.geo.admin.ch/?Y=2604927&amp;X=1195618&amp;zoom=12&amp;bgLayer=ch.swisstopo.swissimage&amp;layers=ch.bazl.kataster-belasteter-standorte-zivilflugplaetze&amp;layers_opacity=1&amp;bgOpacity=0.8&amp;layers_visibility=true</Text>
+            </LocalisedText>
+          </TextAtWeb>
+          <Lawstatus>
+            <Code>inKraft</Code>
+            <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+          </Lawstatus>
+          <extensions />
+          <Title>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>BE-Bern-2-I-12</Text>
+            </LocalisedText>
+          </Title>
+          <OfficialTitle>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </OfficialTitle>
+          <Abbrevation>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text />
+            </LocalisedText>
+          </Abbrevation>
+          <OfficialNumber />
+          <Canton>BE</Canton>
+          <Municipality />
+          <ResponsibleOffice>
+            <Name>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+              </LocalisedText>
+            </Name>
+            <OfficeAtWeb>https://www.bazl.admin.ch/bazl/de/home/fachleute/flugplaetze/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html</OfficeAtWeb>
+            <UID>fc7e39a7-ccf9-4fe8-b082-6b43eec9c2c4</UID>
+            <extensions />
+          </ResponsibleOffice>
+          <Reference xsi:type="Document">
+            <TextAtWeb>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>https://www.admin.ch/ch/d/sr/c814_01.html</Text>
+              </LocalisedText>
+            </TextAtWeb>
+            <Lawstatus>
+              <Code>inKraft</Code>
+              <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+            </Lawstatus>
+            <extensions />
+            <Title>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Umweltschutzgesetz</Text>
+              </LocalisedText>
+            </Title>
+            <OfficialTitle>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text />
+              </LocalisedText>
+            </OfficialTitle>
+            <Abbrevation>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>USG</Text>
+              </LocalisedText>
+            </Abbrevation>
+            <OfficialNumber>SR 814.01</OfficialNumber>
+            <Canton>BE</Canton>
+            <Municipality />
+            <ResponsibleOffice>
+              <Name>
+                <LocalisedText>
+                  <Language>de</Language>
+                  <Text>Bundeskanzlei</Text>
+                </LocalisedText>
+              </Name>
+              <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+              <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+              <extensions />
+            </ResponsibleOffice>
+          </Reference>
+          <Reference xsi:type="Document">
+            <TextAtWeb>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>https://www.admin.ch/ch/d/sr/c814_680.html</Text>
+              </LocalisedText>
+            </TextAtWeb>
+            <Lawstatus>
+              <Code>inKraft</Code>
+              <Name>Die Eigentumsbeschränkung ist in Kraft</Name>
+            </Lawstatus>
+            <extensions />
+            <Title>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>Altlasten-Verordnung</Text>
+              </LocalisedText>
+            </Title>
+            <OfficialTitle>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text />
+              </LocalisedText>
+            </OfficialTitle>
+            <Abbrevation>
+              <LocalisedText>
+                <Language>de</Language>
+                <Text>AltlV</Text>
+              </LocalisedText>
+            </Abbrevation>
+            <OfficialNumber>SR 814.680</OfficialNumber>
+            <Canton>BE</Canton>
+            <Municipality />
+            <ResponsibleOffice>
+              <Name>
+                <LocalisedText>
+                  <Language>de</Language>
+                  <Text>Bundeskanzlei</Text>
+                </LocalisedText>
+              </Name>
+              <OfficeAtWeb>http://www.bk.admin.ch</OfficeAtWeb>
+              <UID>4edaa9e0-b1fc-45c1-8997-4869e3411e8c</UID>
+              <extensions />
+            </ResponsibleOffice>
+          </Reference>
+        </LegalProvisions>
+        <ResponsibleOffice>
+          <Name>
+            <LocalisedText>
+              <Language>de</Language>
+              <Text>Bundesamt für Zivilluftfahrt BAZL</Text>
+            </LocalisedText>
+          </Name>
+          <OfficeAtWeb>https://www.bazl.admin.ch/bazl/de/home/fachleute/flugplaetze/kataster-der-belasteten-standorte-auf-zivilflugplaetzen--kbs-baz.html</OfficeAtWeb>
+          <UID>fc7e39a7-ccf9-4fe8-b082-6b43eec9c2c4</UID>
+          <extensions />
+        </ResponsibleOffice>
+        <extensions />
+      </RestrictionOnLandownership>
+      <PlanForLandRegister>
+        <ReferenceWMS>https://www.geoservice.apps.be.ch/geoservice1/services/a42pub1/a42pub_oereb_av_wms_d_bk/MapServer/WMSServer?VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:2056&amp;bbox=2603536.42,1195044.28,2605728.95,1196292.59&amp;width=1370&amp;height=780&amp;LAYERS=GEODB.AVR_BOF,GEODB.DIPANU_DIPANUF_SR,GEODB.DIPANU_DIPANUF_SR_B,GEODB.DIPANU_DIPANUF,GEODB.DIPANU_DIPANUF_B,GEODB.GRENZ5_G5_B,GEODB.TELEDAT_NW,GEODB.GEBADR_GADR,GEODB.AVR_PELE,GEODB.AVR_LELE,GEODB.AVR_FELE&amp;STYLES=,,,,,,,,,,&amp;EXCEPTIONS=xml&amp;FORMAT=image/png32&amp;BGCOLOR=0xFEFFFF&amp;TRANSPARENT=TRUE</ReferenceWMS>
+        <LegendAtWeb>https://files.be.ch/bve/agi/oereb/legenden/av_legende_de.gif</LegendAtWeb>
+        <extensions />
+      </PlanForLandRegister>
+      <extensions />
+    </RealEstate>
+    <ExclusionOfLiability>
+      <Title>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Haftungsausschluss Kataster der belasteten Standorte (KbS)</Text>
+        </LocalisedText>
+      </Title>
+      <Content>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Der Kataster der belasteten Standorte (KbS) wurde anhand der vom Bundesamt für Umwelt BAFU festgelegten Kriterien erstellt und wird fortwährend aufgrund neuer Erkenntnisse (z.B. Untersuchungen) aktualisiert. Die im KbS eingetragenen Flächen können vom tatsächlichen Ausmass der Belastung abweichen. Erscheint ein Grundstück nicht im KbS, besteht keine absolute Gewähr, dass das Areal frei von jeglichen Abfall- oder Schadstoffbelastungen ist. Bahnbetrieblich, militärisch und für die Luftfahrt genutzte Standorte liegen im Zuständigkeitsbereich des Bundes. Für weitere Informationen wenden Sie sich an die kantonale Altlastenfachstelle: Amt für Wasser und Abfall (http://www.be.ch/awa).</Text>
+        </LocalisedText>
+      </Content>
+      <extensions />
+    </ExclusionOfLiability>
+    <PLRCadastreAuthority>
+      <Name>
+        <LocalisedText>
+          <Language>de</Language>
+          <Text>Amt für Geoinformation</Text>
+        </LocalisedText>
+      </Name>
+      <OfficeAtWeb>http://www.be.ch/oerebk</OfficeAtWeb>
+      <UID>ch.be.bve.agi</UID>
+      <Street>Reiterstrasse</Street>
+      <Number>11</Number>
+      <PostalCode>3011</PostalCode>
+      <City>Bern</City>
+      <extensions />
+    </PLRCadastreAuthority>
+    <extensions />
+  </Extract>
+</GetExtractByIdResponse>
