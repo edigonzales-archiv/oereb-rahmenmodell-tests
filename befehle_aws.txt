@@ -1,0 +1,4 @@
+java -jar /Users/stefan/apps/ili2pg-3.10.10/ili2pg.jar --dbhost geodb-dev.cgjofbdf5rqg.eu-central-1.rds.amazonaws.com --dbdatabase xanadu2 --dbusr stefan --dbpwd XXXXXXX --nameByTopic --disableValidation --defaultSrsCode 2056 --strokeArcs --createFk --createGeomIdx --createFkIdx --createEnumTabs --beautifyEnumDispName --createMetaInfo --importTid --models PLZOCH1LV95D --dbschema av_plzortschaft --import /Users/stefan/Downloads/PLZO_INTERLIS_LV95/PLZO_ITF_LV95.itf
+
+GRANT USAGE ON SCHEMA av_plzortschaft TO oereb_read;
+GRANT SELECT ON ALL TABLES IN SCHEMA av_plzortschaft TO oereb_read;
