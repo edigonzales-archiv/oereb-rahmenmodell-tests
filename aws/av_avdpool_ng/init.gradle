@@ -1,0 +1,21 @@
+
+allprojects {
+    buildscript {
+        repositories {
+            mavenCentral()
+            jcenter()
+            maven { url 'http://sogeo.services:8081/artifactory/libs-snapshot' }  
+            //mavenLocal() 
+            maven { url 'http://jars.interlis.ch' }   
+        }
+        dependencies {
+            classpath 'ch.so.agi:gretl:1.0.+'
+            classpath 'de.undercouch:gradle-download-task:3.3.0'
+        }
+        ext {
+            dbHost = System.env.DB_HOST
+            dbUser = System.env.DB_USER
+            dbPass = System.env.PGPASSWORD
+        }
+    }
+}
