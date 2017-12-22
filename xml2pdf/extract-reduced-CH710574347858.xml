@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetExtractByIdResponse xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:data="http://schemas.geo.admin.ch/V_D/OeREB/1.0/ExtractData" xmlns="http://schemas.geo.admin.ch/V_D/OeREB/1.0/Extract">
+  <data:Extract>
+    <data:CreationDate xmlns="http://schemas.geo.admin.ch/V_D/OeREB/1.0/ExtractData">2017-12-22T15:41:39.199275+01:00</data:CreationDate>
+  </data:Extract>
+</GetExtractByIdResponse>

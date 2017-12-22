@@ -1,0 +1,24 @@
+   <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+        <fo:layout-master-set>
+            <fo:simple-page-master master-name="A4-cover"
+                page-width="210mm" page-height="297mm" margin="12mm">
+                <fo:region-body margin-top="0mm" margin-left="85mm" />
+                <fo:region-before precedence="true" extent="55mm" />
+            </fo:simple-page-master>
+        </fo:layout-master-set>
+
+        <fo:page-sequence master-reference="A4-cover">
+            <fo:static-content flow-name="xsl-region-before">
+                <fo:block background-color="blue">
+                    Before area
+                </fo:block>
+            </fo:static-content>
+
+
+            <fo:flow flow-name="xsl-region-body">
+                <fo:block background-color="green">
+                    Body area
+                </fo:block>
+            </fo:flow>
+        </fo:page-sequence>
+    </fo:root>

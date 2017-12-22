@@ -1,0 +1,5 @@
+<GetExtractByIdResponse xmlns:data="http://schemas.geo.admin.ch/V_D/OeREB/1.0/ExtractData" >
+  <data:Extract>
+    <CreationDate>2017-12-19T06:32:49.4217207+01:00</CreationDate>
+  </data:Extract>
+</GetExtractByIdResponse>

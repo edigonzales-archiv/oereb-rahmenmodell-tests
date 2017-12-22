@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <GetExtractByIdResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.geo.admin.ch/swisstopo/OeREBK/15/Extract">
   <Extract xmlns="http://schemas.geo.admin.ch/swisstopo/OeREBK/15/ExtractData">
     <CreationDate>2017-12-19T06:32:49.4217207+01:00</CreationDate>

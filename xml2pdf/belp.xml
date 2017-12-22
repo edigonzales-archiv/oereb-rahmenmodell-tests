@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:GetExtractByIdResponse xmlns:data="http://schemas.geo.admin.ch/V_D/OeREB/1.0/ExtractData" xmlns:ns2="http://schemas.geo.admin.ch/V_D/OeREB/1.0/Extract">
+  <data:Extract>
+    <data:CreationDate>2017-12-22T18:04:29.085+01:00</data:CreationDate>
+    <data:RealEstate>
+      <data:Number>336</data:Number>
+      <data:IdentDN>SO0200002546</data:IdentDN>
+      <data:EGRID>CH870672603279</data:EGRID>
+      <data:Type>RealEstate</data:Type>
+      <data:Canton>SO</data:Canton>
+      <data:Municipality>Grenchen</data:Municipality>
+      <data:FosNr>2546</data:FosNr>
+      <data:MetadataOfGeographicalBaseData>http://www.example.com/ist_ja_optional_oder</data:MetadataOfGeographicalBaseData>
+      <data:LandRegistryArea>289498</data:LandRegistryArea>
+    </data:RealEstate>
+  </data:Extract>
+</ns2:GetExtractByIdResponse>

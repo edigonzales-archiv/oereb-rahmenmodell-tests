@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data:GetExtractByIdResponse xmlns:data="http://schemas.geo.admin.ch/V_D/OeREB/1.0/ExtractData">
+  <data:Extract>
+    <CreationDate>Natur und Kunst</CreationDate>
+  </data:Extract>
+  <data:Extract>
+    <CreationDate>Natur und Kunst</CreationDate>
+  </data:Extract>
+</data:GetExtractByIdResponse>

@@ -1,7 +1,7 @@
 export DB_HOST=geodb-dev.cgjofbdf5rqg.eu-central-1.rds.amazonaws.com
 export DB_USER=stefan
 export DB_DATABASE=sogis
-export PGPASSWORD=XXXXXX
+export PGPASSWORD=ziegler15
 
 sudo locale-gen de_CH.utf8
 apt-get update

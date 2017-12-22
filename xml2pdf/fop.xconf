@@ -1,0 +1,24 @@
+<!--
+I have removed everything not needed. For example
+page width and heigth are supplied in fo files anyway. 
+also no need for dpi as its set to default 72. 
+also removed unnecessary renderers as we are using pdf only. 
+ -->
+
+<!-- NOTE: This is the version of the configuration -->
+<fop version="1.0">
+  <!-- Base URL for resolving relative URLs -->
+  <base>.</base>
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+        <font kerning="yes" embed-url="Cadastra.ttf" encoding-mode="single-byte">
+          <font-triplet name="Cadastra" style="normal" weight="400"/>
+        </font>
+        <font kerning="yes" embed-url="CadastraBd.ttf" encoding-mode="single-byte">
+          <font-triplet name="Cadastra" style="normal" weight="700"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>	
+</fop>

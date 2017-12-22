@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fo:root 
+  xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="A4" page-height="297mm" page-width="210mm" margin-top="10mm" margin-bottom="10mm" margin-left="18mm" margin-right="18mm">
+      <fo:region-body margin-top="30mm" background-color="yellow"/>       
+      <fo:region-before extent="30mm" background-color="blue" />                       
+      <fo:region-after extent="20mm" background-color="blue"/>                          
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="A4">
+    <fo:static-content flow-name="xsl-region-before">
+      <fo:block>
+        <fo:block-container absolute-position="absolute" top="0mm" left="0mm" background-color="#4F491D">
+          <fo:block>
+            <fo:external-graphic src="url('https://oerebfiles.apps.be.ch/logos/bund_logo.svg')" width="44mm" content-width="scale-to-fit" content-height="scale-to-fit"/>          
+          </fo:block>
+        </fo:block-container>
+        <fo:block-container absolute-position="absolute" top="0mm" left="139mm" background-color="#F38222">
+          <fo:block>
+            <fo:external-graphic src="oerebkataster_logo.svg" height="10mm" width="35mm" content-width="scale-to-fit" content-height="scale-to-fit"/>
+          </fo:block>
+        </fo:block-container>
+        <fo:block-container absolute-position="absolute" top="19mm" left="0mm">
+          <fo:block>        
+        <fo:leader leader-pattern="rule" leader-length="100%" rule-style="solid" rule-thickness="0.2pt"/>             
+          </fo:block>                    
+        </fo:block-container>
+      </fo:block>
+    </fo:static-content>  
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block font-family="Cadastra" font-size="18pt" font-weight="700" hyphenation-character="-" hyphenate="false" wrap-option="wrap">Auszug aus dem Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen (ÖREB-Kataster)</fo:block>
+       <fo:block font-family="Cadastra">        Hello World!      </fo:block>
+      <fo:block font-family="Cadastra" font-weight="700">        Hello World!      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>
