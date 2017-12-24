@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<GetExtractByIdResponse>
+  <Extract>
+    <CreationDate>2017-12-19T06:32:49.4217207+01:00</CreationDate>
+    <ConcernedTheme>
+      <Code>Nutzungsplanung</Code>
+      <Name>Kommunale Nutzungsplanung</Name>
+    </ConcernedTheme>
+    <ConcernedTheme>
+      <Code>SicherheitszonenplanFlughafen</Code>
+      <Name>Sicherheitszonenplan bei Flughäfen</Name>
+    </ConcernedTheme>
+    <ConcernedTheme>
+      <Code>BelasteteStandorteZivileFlugplaetze</Code>
+      <Name>Kataster der belasteten Standorte im Bereich der zivilen Flugplätze</Name>
+    </ConcernedTheme>
+    <NotConcernedTheme>
+      <Code>RegionaleNutzungsplanung</Code>
+      <Name>Regionale Nutzungsplanung</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>KantonaleNutzungsplanung</Code>
+      <Name>Kantonale Nutzungsplanung</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BaulinienKantonsstrassen</Code>
+      <Name>Baulinien Kantonsstrassen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>ProjektierungszonenNationalstrassen</Code>
+      <Name>Projektierungszonen Nationalstrassen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>ProjektierungszonenEisenbahnanlagen</Code>
+      <Name>Projektierungszonen Eisenbahnanlagen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BaulinienEisenbahnanlagen</Code>
+      <Name>Baulinien Eisenbahnanlagen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>ProjektierungszonenFlughafenanlagen</Code>
+      <Name>Projektierungszonen Flughafenanlagen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BaulinienFlughafenanlagen</Code>
+      <Name>Baulinien Flughafenanlagen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BelasteteStandorte</Code>
+      <Name>Kataster der belasteten Standorte</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>BelasteteStandorteOeffentlicherVerkehr</Code>
+      <Name>Kataster der belasteten Standorte im Bereich des öffentlichen Verkehrs</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Grundwasserschutzzonen</Code>
+      <Name>Grundwasserschutzzonen</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Grundwasserschutzareale</Code>
+      <Name>Grundwasserschutzareale</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Laermempfindlichkeitsstufen</Code>
+      <Name>Lärmempfindlichkeitsstufen (in Nutzungszonen)</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Waldgrenzen</Code>
+      <Name>Waldgrenzen (in Bauzonen)</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>Waldabstandslinien</Code>
+      <Name>Kommunale Wald-Baulinien</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>RegionaleWaldbaulinien</Code>
+      <Name>Regionale Wald-Baulinien</Name>
+    </NotConcernedTheme>
+    <NotConcernedTheme>
+      <Code>KantonaleWaldbaulinien</Code>
+      <Name>Kantonale Wald-Baulinien</Name>
+    </NotConcernedTheme>
+    <ThemeWithoutData>
+      <Code>BaulinienNationalstrassen</Code>
+      <Name>Baulinien Nationalstrassen</Name>
+    </ThemeWithoutData>
+    <ThemeWithoutData>
+      <Code>BelasteteStandorteMilitaer</Code>
+      <Name>Kataster der belasteten Standorte im Bereich des Militärs</Name>
+    </ThemeWithoutData>
+    
+  </Extract>
+</GetExtractByIdResponse>
