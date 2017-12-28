@@ -55,7 +55,7 @@ SELECT
     WHEN thema IS NULL THEN FALSE
     ELSE TRUE
   END AS concerned,
-  thema_txt.titel_de
+  thema_txt.titel_de AS title
 FROM
 (
   SELECT DISTINCT
