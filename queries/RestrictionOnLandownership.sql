@@ -1,4 +1,4 @@
-
+/*
 WITH parcel AS 
 (
   SELECT
@@ -66,7 +66,7 @@ FROM
   LEFT JOIN parcel
   ON ST_Intersects(parcel.geometry, restriction.geometry)
  ;
- 
+ */
 
 /*
 SELECT
@@ -100,4 +100,26 @@ WHERE
   eb.artcode = le.artcode
 */  
   
-
+SELECT 
+  RIGHT(legendetext_de, 2),
+  *
+FROM 
+(
+  SELECT 
+    le.t_id,
+    le.symbol, 
+    le.legendetext_de, --AS legend_text, 
+    le.legendetext_fr, --AS legend_text, 
+    le.artcode AS type_code, 
+    le.artcodeliste AS type_code_list, 
+    le.thema AS theme, 
+    le.subthema AS subtheme 
+  FROM 
+    agi_oereb_trsfr.transferstruktur_eigentumsbeschraenkung AS eb  
+    LEFT JOIN agi_oereb_trsfr.transferstruktur_darstellungsdienst AS ds  
+    ON ds.t_id = eb.darstellungsdienst 
+    LEFT JOIN agi_oereb_trsfr.transferstruktur_legendeeintrag AS le  
+    ON le.transfrstrkstllngsdnst_legende = ds.t_id 
+  WHERE    
+    eb.artcode = le.artcode
+) AS foo
